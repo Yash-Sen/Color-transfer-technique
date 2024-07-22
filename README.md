@@ -131,3 +131,74 @@ Result 5
 Software interface
 
 ![app](https://github.com/user-attachments/assets/215833ba-a364-46c7-95d7-42d15e2af34f)
+
+
+
+Detailed Explanation of the Code 
+
+1. Imports and Setup 
+Your code begins with importing various libraries necessary for the image processing and 
+GUI components of the project: 
+
+•  NumPy 
+
+Purpose: NumPy is a fundamental package for scientific computing in Python. 
+
+Functionality: It provides support for arrays, matrices, and many mathematical functions 
+to operate on these data structures efficiently. 
+
+Usage in Project: NumPy is used for numerical operations and array manipulations, such 
+as calculating the mean and standard deviation of the color channels. 
+
+•  OpenCV 
+
+Purpose: OpenCV (Open Source Computer Vision Library) is an open-source library 
+that provides tools for computer vision and image processing. 
+
+Functionality: It includes functions for reading, writing, and manipulating images, as 
+well as various image processing algorithms. 
+
+Usage in Project: OpenCV is used to read images, convert them between color spaces 
+(BGR to LAB and vice versa), and perform the core color transfer operations. 
+
+•  OS 
+
+Purpose: The OS module in Python provides a way of using operating system-dependent 
+functionality like reading or writing to the file system. 
+
+Functionality: It includes functions to interact with the file system, such as file and 
+directory manipulation. 
+
+Usage in Project: The OS module is used to construct file paths and handle file 
+operations such as saving the processed images. 
+
+•  Tkinter 
+
+Purpose: Tkinter is the standard GUI (Graphical User Interface) library for Python. 
+
+Functionality: It provides a toolkit to create and manage GUI elements like windows, 
+buttons, labels, and dialogs. 
+
+Usage in Project: Tkinter is used to create the main application window, buttons for 
+selecting files and folders, labels for displaying messages, and a progress bar to indicate 
+the status of the conversion process. 
+
+•  Matplotlib 
+
+Purpose: Matplotlib is a plotting library for the Python programming language. 
+
+Functionality: It provides an API for embedding plots into applications and creating 
+static, animated, and interactive visualizations. 
+
+Usage in Project: Matplotlib is used to display the source, target, and result images side 
+
+•  Threading 
+
+Purpose: The threading module in Python is used to run multiple threads (tasks, function 
+calls) concurrently. 
+
+Functionality: It allows the program to perform tasks in the background, keeping the 
+main application responsive. 
+
+Usage in Project: Threading is used to run the color transfer process in a separate thread, 
+preventing the GUI from freezing during the operation.
